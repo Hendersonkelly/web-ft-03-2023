@@ -1,34 +1,64 @@
 .events {
   padding: 4rem 0;
+  
 }
 
 .events-cards {
   margin: 4rem 0; 
+  display: flex;
+  flex-wrap: wrap;
+  
+  
+
 }
 
 .event-card {
   width: 300px;
   max-width: 100%;
   margin: 0 1rem 2rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: pink; */
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.card-container{
+  display: flex;
+  flex-direction: column;
 }
 
 .card-title {
   font-size: 1.8rem;
   margin: 0;
-  text-align: center;
+  
+  
 }
 
 .card-divider {
   height: 10px;
+  
 }
 
-.card-body {}
+.card-body {
+  
+}
 
 .event-price {
   text-align: center;
   font-family: var(--font-serif);
   font-size: 2.5rem;
   margin: 0.4em 0;
+}
+li{
+  list-style: none;
+  text-align: center;
+  align-content: stretch;
+  
+}
+ul{
+  padding-inline-start: 0px;
 }
 
 .card-footer {}
