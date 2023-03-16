@@ -1,0 +1,37 @@
+body{
+    margin: 0px;
+}
+
+div{
+    position: relative;
+    height: 100px;
+    width: 300px;
+    
+}
+.div1{
+    position: absolute;
+    height: 100%;
+    width: 33%;
+    background-color: plum;
+    display: inline-block;
+    border: solid 5px black;
+    
+}
+.div2{
+    position: absolute;
+    height: 100%;
+    width: 33%;
+    left: 33%;
+    background-color:cornflowerblue;
+    display: inline-block;
+    border: solid 5px black;
+}
+.div3{
+    position: absolute;
+    height: 100%;
+    width: 33%;
+    left: 66%;
+    background-color: darkolivegreen;
+    display: inline-block;
+    border: solid 5px black;
+}

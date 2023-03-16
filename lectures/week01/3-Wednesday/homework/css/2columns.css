@@ -1,0 +1,34 @@
+
+body{
+    margin: 0px;
+    
+    
+}
+div{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.div1{
+    background-color: purple;
+    position: absolute;
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    border: solid 5px black;
+    text-align: center;
+   
+   
+}
+.div2{
+    background-color: powderblue;
+    position: absolute;
+    display: inline-block;
+    width: 80%;
+    left: 20%;
+    height: 100%;
+    border: solid 5px black;
+    text-align: center;
+    
+    
+}
