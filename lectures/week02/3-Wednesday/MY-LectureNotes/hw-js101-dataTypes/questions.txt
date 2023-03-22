@@ -1,0 +1,29 @@
+1. What is string interpolation in JavaScript?
+    it allows for a strings to be put together and also allows variable values to be added.
+
+
+2. What is the syntax for string interpolation in JavaScript?
+    you need backticks`` and a ${} for the variable
+
+3. How does string interpolation differ from string concatenation?
+     in concatenation you are combining variables without other strings around them.
+
+4. Can you use variables in string interpolation?
+yes.
+
+5. Can you use expressions in string interpolation?
+No.
+
+6. What is the difference between single and double quotes when using string interpolation?
+the single qoutes allow you to manipulate the look of the information more. 
+
+7. Can you use string interpolation with template literals?
+yes.
+
+8. How do you escape characters in string interpolation? 
+you can use /n to adda break line in your text and /t to add 5 spaces
+
+9. Can you use string interpolation in older versions of JavaScript? no
+
+10. How can you use string interpolation in a function or method? 
+you would just use the documentation of ${}
